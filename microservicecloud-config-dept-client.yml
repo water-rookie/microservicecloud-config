@@ -13,8 +13,8 @@ mybatis:
   - classpath:mybatis/mapper/**/*.xml                       # mapper映射文件
     
 spring:
-   application:
    profiles: dev #开发环境
+   application:
     name: microservicecloud-config-dept-client 
    datasource:
     type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
@@ -51,8 +51,8 @@ mybatis:
   - classpath:mybatis/mapper/**/*.xml                       # mapper映射文件
     
 spring:
-   application:
    profiles: test #开发环境
+   application: 
     name: microservicecloud-config-dept-client 
    datasource:
     type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
